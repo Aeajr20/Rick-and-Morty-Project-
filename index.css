@@ -1,0 +1,47 @@
+header {
+    color: rgb(12, 105, 12);
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 255, 5);
+    width: 100%;
+    font-size: 70px;
+  }
+  body {
+    background-color: rgb(12, 105, 12);
+  }
+  nav {
+    text-align: center;
+    margin: 20px 0;
+  }
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .character {
+    border: 10px solid #000000;
+    border-radius: 50%;
+    width: 800px;  /* Adjust size as needed */
+    height: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .character img {
+    border-radius: 50%;
+    width: 100%; /* Adjust size */
+    height: auto;
+  }
+  .trivia, .match {
+    text-align: center;
+    margin: 20px 0;
+  }
